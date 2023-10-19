@@ -52,7 +52,6 @@ def user_interaction():
     # Вывод всех вакансий
     for vac in vacancy_objects:
         print(vac)
-    print(vacancies)
 
     while True:
         user_input = get_user_input("Что мне сделать?\n"
